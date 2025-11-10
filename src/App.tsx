@@ -5,8 +5,8 @@ import GoogleDocs from "./google-docs";
 function App() {
   return (
     <>
-      {/* <EditorCore /> */}
-      <GoogleDocs />
+      <EditorCore />
+      {/* <GoogleDocs /> */}
     </>
   );
 }

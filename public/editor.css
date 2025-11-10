@@ -1,0 +1,5 @@
+#tinymce {
+  background-color: red !important;
+  max-width: 500px !important;
+  overflow: hidden;
+}

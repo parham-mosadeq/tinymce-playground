@@ -122,14 +122,17 @@ export default function EditorCore() {
           plugins:
             "advlist autolink lists link image charmap print preview anchor " +
             "searchreplace visualblocks code fullscreen " +
-            "insertdatetime media table paste code hel p wordcount",
+            "insertdatetime media table paste code hel p wordcount directionality",
           toolbar:
             "undo redo | formatselect | " +
             "bold italic backcolor | alignleft aligncenter " +
             "alignright alignjustify | bullist numlist outdent indent | " +
-            "paddingPlugin | removeformat | help",
+            "paddingPlugin | removeformat | help " +
+            "rtl | ltr",
           content_style:
             "body { font-family:Helvetica,Arial,sans-serif; font-size:14px; transition: padding 0.3s ease; }",
+          width: "100%",
+          content_css: ["/editor.css"],
         }}
       />
     </div>
